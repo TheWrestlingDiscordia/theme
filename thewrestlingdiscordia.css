@@ -1,0 +1,106 @@
+
+@import url(https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/highlightJS.css);
+/*Nitro Tag*/
+.avatar-large[style*="/a_"]+.comment .username-wrapper:before {
+    background: url('https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg') 50% 50% / contain no-repeat;
+    float:left;
+    content: '';
+    width: 21px;
+    height: 16px;
+    margin: 0 5px 0 -5px;
+}
+.avatar-small[style*="/a_"]+.member-inner .member-username:before {
+    background: url('https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg') 50% 50% / contain no-repeat;
+    float:left;
+    content: '';
+    width: 21px;
+    height: 16px;
+    margin: 0 5px 0 -5px;
+}
+/*Blur email in settings*/
+.user-settings-account .ui-form-item:last-of-type .view-body.selectable-prgIYK:last-of-type {
+    -webkit-filter: blur(5px) !important;
+}
+.user-settings-account .ui-form-item:last-of-type .view-body.selectable-prgIYK:last-of-type:hover {
+    -webkit-filter: initial !important;
+}
+div.message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed{
+    display:none!important;
+}
+
+.roleCircle-3-vPZq {
+    border-radius: 1%;
+    height: 12px;
+    margin-right: 4px;
+    width: 12px;
+}
+
+.assetsLargeImage-1A0_EG {
+    border-radius: 50px;
+    display: block;
+}
+
+.avatarHint-2i5XWK {
+    -webkit-box-shadow: inset 0 0 120px rgba(0,0,0,.75);
+    -webkit-transition: opacity .1s ease;
+    border-radius: 50%;
+    bottom: 0;
+    box-shadow: inset 0 0 120px rgba(0,0,0,.75);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    transition: opacity .1s ease;
+    z-index: 2;
+}
+
+
+.role-3rahR_ {
+    -webkit-box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 1px;
+    box-sizing: border-box;
+    height: 22px;
+    margin: 0 4px 4px 0;
+    padding: 4px;
+}
+
+.image-EVRGPw, .status-3jUEha {
+    border-radius: 1%;
+}
+
+.embed .embed-author-icon {
+    -o-object-fit: contain;
+    border-radius: 1%;
+    height: 20px;
+    margin-right: 9px;
+    object-fit: contain;
+    width: 20px;
+}
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+    background-clip: padding-box;
+    background-color: none;
+    background-position: 50%;
+    border-radius: 1px;
+    position: relative;
+}
+
+.embed .embed-footer-icon {
+    -o-object-fit: contain;
+    border-radius: 1px;
+    float: left;
+    height: 18px;
+    margin-right: 10px;
+    object-fit: contain;
+    width: 18px;
+}
+
+.message-group .avatar-large {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-top: -2px;
+    border-radius: 1px;
+}
